@@ -1,6 +1,6 @@
 import Home from './pages/Home'
-import Header from './pages/Header'
-import Footer from './pages/Footer'
+import Navbar from './components/Navbar'
+import Footer from './components/Footer'
 import {
   createBrowserRouter,
   RouterProvider,
@@ -17,7 +17,7 @@ function App() {
 
   return (
     <>
-    <Header/>
+    <Navbar/>
     <main>
       <RouterProvider router={router} />
     </main>

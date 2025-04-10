@@ -7,10 +7,10 @@ const Navbar=()=>{
                 <div>
                     E-Commerce
                 </div>
-                <div className="space-x-5">
-                    <div>
-                        <div></div>
-                        <button>
+                <div className="flex items-center space-x-5">
+                    <div className="flex flex-wrap">
+                        <input type="text" className="outline-1 -outline-offset-1 outline-gray-300 rounded-l-lg px-4 py-2"/>
+                        <button className="cursor-pointer outline-1 -outline-offset-1 outline-gray-300 rounded-r-lg px-4 py-2">
                             <MagnifyingGlassIcon className="w-6 h-6"/>
                         </button>
                     </div>

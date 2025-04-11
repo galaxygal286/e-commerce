@@ -16,15 +16,7 @@ const categories = [
     {
         image: TechnologyLogo,
         text: "Entertainment & Leisure"
-    },
-    {
-        image: TechnologyLogo,
-        text: "Technology & Electronics"
-    },
-    {
-        image: TechnologyLogo,
-        text: "Technology & Electronics"
-    },
+    }
 
 ]
 

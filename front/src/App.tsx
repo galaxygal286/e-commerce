@@ -5,11 +5,21 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router";
+import SignIn from './pages/SignIn';
+import SignUp from './pages/SignUp';
 
 const router = createBrowserRouter([
   {
     path: "/",
     Component: Home,
+  },
+  {
+    path: "/signin",
+    Component: SignIn,
+  },
+  {
+    path: "/signup",
+    Component: SignUp,
   },
 ]);
 
@@ -17,11 +27,11 @@ function App() {
 
   return (
     <>
-    <Navbar/>
-    <main>
+    {/* <Navbar/>
+    <main> */}
       <RouterProvider router={router} />
-    </main>
-    <Footer />
+    {/* </main>
+    <Footer /> */}
     </>
   )
 }

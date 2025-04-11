@@ -10,13 +10,37 @@ const products=[
         image:logo,
         text:"product name"
     },
+    {
+        image:logo,
+        text:"product name"
+    },
+    {
+        image:logo,
+        text:"product name"
+    },
+    {
+        image:logo,
+        text:"product name"
+    },
+    {
+        image:logo,
+        text:"product name"
+    },
+    {
+        image:logo,
+        text:"product name"
+    },
+    {
+        image:logo,
+        text:"product name"
+    },
 ]
 
 const LatestProducts = () => {
     return <>
         <section className="py-5">
             <h2 className="text-xl text-center mb-6">See Our Latest Products</h2>
-            <div className="flex flex-wrap items-start justify-center">
+            <div className="flex flex-wrap">
                 {
                     products.map(c => {
                         return <a className="block max-w-37 w-full p-3" href="#">

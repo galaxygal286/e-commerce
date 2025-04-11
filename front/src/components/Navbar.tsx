@@ -1,4 +1,6 @@
 import { MagnifyingGlassIcon } from "@heroicons/react/24/outline"
+import { Link } from "react-router"
+
 
 const Navbar=()=>{
     return <>
@@ -14,7 +16,7 @@ const Navbar=()=>{
                             <MagnifyingGlassIcon className="w-6 h-6"/>
                         </button>
                     </div>
-                    <a className="text-sm font-medium text-gray-700 hover:text-gray-800" href="#">Sign in</a>
+                    <Link to="/signin" className="text-sm font-medium text-gray-700 hover:text-gray-800">Sign in</Link>
                     <a className="text-sm font-medium text-gray-700 hover:text-gray-800" href="#">Cart</a>
                 </div>
             </nav>
